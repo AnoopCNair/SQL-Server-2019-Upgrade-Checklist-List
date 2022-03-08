@@ -3,5 +3,5 @@ Gives the details of SQL Server 2019 Upgrade Config Check - More details on http
 Location - C:\Program Files\Microsoft SQL Server\150\Setup Bootstrap\Log\20220307_161249\SystemConfigurationCheck_Report.htm
 
 
-There are two files attached with complete upgrade check list for SQL Server 2019 Upgrade.
+There are 3 files attached with complete upgrade check list for SQL Server 2019 Upgrade.
 
