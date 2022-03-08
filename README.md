@@ -1,50 +1,7 @@
 # SQL-Server-2019-Upgrade-Config-Check
-Gives the details of SQL Server 2019 Upgrade Config Check
+Gives the details of SQL Server 2019 Upgrade Config Check - More details on https://www.anoopcnair.com/sql-server-2019-upgrade-sccm-secondary-server/
 Location - C:\Program Files\Microsoft SQL Server\150\Setup Bootstrap\Log\20220307_161249\SystemConfigurationCheck_Report.htm
-ServerCore64BitCheck
-AclPermissionsFacet
-FacetWOW64PlatformCheck
-HasSecurityBackupAndDebugPrivilegesCheck
-MediaPathLength
-RebootRequiredCheck
-SetupCompatibilityCheck
-ThreadHasAdminPrivilegeCheck
-WmiServiceStateCheck
-Cluster_IsWMIServiceOperational
-ServerCoreBlockUnsupportedSxSCheck
-AclPermissionsFacet
-BlockUnsupportedSxSCheck
-Cluster_DNS_Consistency_Rule
-Cluster_IsOnlineIfClustered
-FacetDomainControllerCheck
-AS_IsServiceHealthy_Id
-AS_UpgradeValidateMixedState
-IsSSISDBInAvailabilityGroup
-LocalOnly_AsFeatureStateCheck
-PowerShellCheck
-ServerCoreBlockUnsupportedFeaturesCheck
-SlipstreamMediaInfoCheck
-BlockCrossLanguageUpgrade
-BlockMixedArchitectureUpgrade
-Cluster_FeatureDownGradeCheck
-DenaliRTMUpgradeBlockRule
-Engine_AllSystemDatabasesAccessibleCheck
-Engine_HasDBWithCompatLevel90
-Engine_IsAweEnabledForX86
-Engine_IsLPIMEnabledForX64
-Engine_IsLPIMEnabledForX86
-Engine_IsMinusHEnabledForX86
-Engine_ResourceDLLUpdateRestartCheck
-Engine_ServiceAccountOnDomainCheck
-Engine_SqlEngineHealthCheck
-Engine_SqlServerServiceDisabled_Id
-EnterpriseCalLimit
-FacetWOW64ClusterUpgradeCheck
-FailedUpgradeCheck
-FAT32FileSystemCheck
-FeatureUpgradeMatrixCheck
-IncompleteUpgradeCheck
-KatmaiRTMUpgradeBlockRule
-KJRTMUpgradeBlockRule
-LocalOnly_SqlFeatureStateCheck
+
+
+There are two files attached with complete upgrade check list for SQL Server 2019 Upgrade.
 
