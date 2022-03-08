@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <title>System Configuration Check Report for Microsoft SQL Server 2019</title>
+  </head>
+  <body>
+    <p STYLE="font-family: Verdana, Arial, sans-serif; font-size: 14pt;">
+      <b>Microsoft SQL Server 2019 - System Configuration Check Report</b>
+    </p>
+    <p STYLE="font-family: Verdana, Arial, sans-serif; font-size: 10pt;">
+      <b>Computer Name(s): </b>MEMCMSECONDARY <br /><b>Report Date/Time: </b>3/8/2022 6:56 AM<br /><b>Saved to Directory: </b><a href="C:\Program Files\Microsoft SQL Server\150\Setup Bootstrap\Log\20220308_065618\SystemConfigurationCheck_Report.htm">C:\Program Files\Microsoft SQL Server\150\Setup Bootstrap\Log\20220308_065618\SystemConfigurationCheck_Report.htm</a></p>
+    <table border="1" cellpadding="7" cellspacing="0" STYLE="font-family: Verdana, Arial, sans-serif; font-size: 9pt;">
+      <tr style="background-color:Silver">
+        <th colspan="2" align="center">Rule Name</th>
+        <th align="center">Rule Description</th>
+        <th align="center">Result</th>
+        <th align="center">Message/Corrective Action</th>
+      </tr>
+      <tr style="background-color:Aqua">
+        <td colspan="5">
+          <b>PatchGlobalRules:
+                    SQL Server 2019 Setup configuration checks for rules group 'PatchGlobalRules'</b>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSkip.ico" />
+        </td>
+        <td>Engine_ResourceDLLUpdateRestartCheck</td>
+        <td>Checks whether shared resource DLLs will be updated, causing restarts for clustered SQL Server instances active on this node.</td>
+        <td>Not applicable</td>
+        <td>This rule does not apply to your system configuration.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>AclPermissionsFacet</td>
+        <td>Checks if the SQL Server registry keys are consistent.</td>
+        <td>Passed</td>
+        <td>SQL Server registry keys are consistent and can support SQL Server installation or upgrade.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>Cluster_IsLocalNodeGroupOwner</td>
+        <td>Checks if the local computer is an owner of an online cluster group for a failover cluster instance that contains the SQL Server service, Analysis Services service or a generic service.</td>
+        <td>Passed</td>
+        <td>The local computer is not an owner of an online cluster group for a failover cluster instance that contains the SQL Server service, Analysis Services service or a generic service. The SQL Server instances do not need to be taken offline.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>Cluster_IsOnlineIfClustered</td>
+        <td>Verifies that the computer is not clustered or that the computer is clustered and the cluster service is online.</td>
+        <td>Passed</td>
+        <td>The computer is either not clustered or the cluster is up and online.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>HasSecurityBackupAndDebugPrivilegesCheck</td>
+        <td>Checks whether the account that is running SQL Server Setup has the right to back up files and directories, the right to manage auditing and the security log and the right to debug programs.</td>
+        <td>Passed</td>
+        <td>The account that is running SQL Server Setup has the right to back up files and directories, the right to manage auditing and security log and the right to debug programs.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>RebootRequiredCheck</td>
+        <td>Checks if a pending computer restart is required. A pending restart can cause Setup to fail.</td>
+        <td>Passed</td>
+        <td>The computer does not require a restart.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>ThreadHasAdminPrivilegeCheck</td>
+        <td>Checks whether the account running SQL Server Setup has administrator rights on the computer.</td>
+        <td>Passed</td>
+        <td>The account running SQL Server Setup has administrator rights on the computer.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>WmiServiceStateCheck</td>
+        <td>Checks whether the WMI service is started and running on the computer.</td>
+        <td>Passed</td>
+        <td>The Windows Management Instrumentation (WMI) service is running.</td>
+      </tr>
+    </table>
+    <p STYLE="font-family: Verdana, Arial, sans-serif; font-size: 10pt;">
+      <b>Rules Documentation: </b>
+      <a href="https://go.microsoft.com/fwlink/?linkid=862098">https://go.microsoft.com/fwlink/?linkid=862098</a>
+      <br />
+      <b>Community: </b>
+      <a href="https://go.microsoft.com/fwlink/?linkid=2094703">https://go.microsoft.com/fwlink/?linkid=2094703</a>
+      <br />
+      <b>Setup Help File: </b>
+      <a href="https://go.microsoft.com/fwlink/?linkid=862093">https://go.microsoft.com/fwlink/?linkid=862093</a>
+    </p>
+  </body>
+  <xml id="xmlDataIsland">
+    <RunRuleResults>
+  <Header reportDate="3/8/2022" reportTime="6:56 AM" savedToDirectory="C:\Program Files\Microsoft SQL Server\150\Setup Bootstrap\Log\20220308_065618\SystemConfigurationCheck_Report.htm">
+    <Machines>
+      <Machine value="MEMCMSECONDARY" />
+    </Machines>
+  </Header>
+  <group groupName="PatchGlobalRules" groupDescription="SQL Server 2019 Setup configuration checks for rules group 'PatchGlobalRules'">
+    <RunRuleResult ruleName="ThreadHasAdminPrivilegeCheck" machineName="MEMCMSECONDARY" description="Checks whether the account running SQL Server Setup has administrator rights on the computer." result="Passed" message="The account running SQL Server Setup has administrator rights on the computer." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="HasSecurityBackupAndDebugPrivilegesCheck" machineName="MEMCMSECONDARY" description="Checks whether the account that is running SQL Server Setup has the right to back up files and directories, the right to manage auditing and the security log and the right to debug programs." result="Passed" message="The account that is running SQL Server Setup has the right to back up files and directories, the right to manage auditing and security log and the right to debug programs." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="RebootRequiredCheck" machineName="MEMCMSECONDARY" description="Checks if a pending computer restart is required. A pending restart can cause Setup to fail." result="Passed" message="The computer does not require a restart." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="WmiServiceStateCheck" machineName="MEMCMSECONDARY" description="Checks whether the WMI service is started and running on the computer." result="Passed" message="The Windows Management Instrumentation (WMI) service is running." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="AclPermissionsFacet" machineName="MEMCMSECONDARY" description="Checks if the SQL Server registry keys are consistent." result="Passed" message="SQL Server registry keys are consistent and can support SQL Server installation or upgrade." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="Cluster_IsOnlineIfClustered" machineName="MEMCMSECONDARY" description="Verifies that the computer is not clustered or that the computer is clustered and the cluster service is online." result="Passed" message="The computer is either not clustered or the cluster is up and online." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="Cluster_IsLocalNodeGroupOwner" machineName="MEMCMSECONDARY" description="Checks if the local computer is an owner of an online cluster group for a failover cluster instance that contains the SQL Server service, Analysis Services service or a generic service." result="Passed" message="The local computer is not an owner of an online cluster group for a failover cluster instance that contains the SQL Server service, Analysis Services service or a generic service. The SQL Server instances do not need to be taken offline." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="Engine_ResourceDLLUpdateRestartCheck" machineName="MEMCMSECONDARY" description="Checks whether shared resource DLLs will be updated, causing restarts for clustered SQL Server instances active on this node." result="Not applicable" message="This rule does not apply to your system configuration." imagePath="resources\ProgressSkip.ico" />
+  </group>
+  <Resources rulesDocumentation="https://go.microsoft.com/fwlink/?linkid=862098" community="https://go.microsoft.com/fwlink/?linkid=2094703" setupHelpFile="https://go.microsoft.com/fwlink/?linkid=862093" />
+</RunRuleResults>
+  </xml>
+</html>

@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+  <head>
+    <title>System Configuration Check Report for Microsoft SQL Server 2019</title>
+  </head>
+  <body>
+    <p STYLE="font-family: Verdana, Arial, sans-serif; font-size: 14pt;">
+      <b>Microsoft SQL Server 2019 - System Configuration Check Report</b>
+    </p>
+    <p STYLE="font-family: Verdana, Arial, sans-serif; font-size: 10pt;">
+      <b>Computer Name(s): </b>MEMCMSECONDARY <br /><b>Report Date/Time: </b>3/7/2022 6:16 PM<br /><b>Saved to Directory: </b><a href="C:\Program Files\Microsoft SQL Server\150\Setup Bootstrap\Log\20220307_161249\SystemConfigurationCheck_Report.htm">C:\Program Files\Microsoft SQL Server\150\Setup Bootstrap\Log\20220307_161249\SystemConfigurationCheck_Report.htm</a></p>
+    <table border="1" cellpadding="7" cellspacing="0" STYLE="font-family: Verdana, Arial, sans-serif; font-size: 9pt;">
+      <tr style="background-color:Silver">
+        <th colspan="2" align="center">Rule Name</th>
+        <th align="center">Rule Description</th>
+        <th align="center">Result</th>
+        <th align="center">Message/Corrective Action</th>
+      </tr>
+      <tr style="background-color:Aqua">
+        <td colspan="5">
+          <b>GlobalRules:
+                    SQL Server 2019 Setup configuration checks for rules group 'GlobalRules'</b>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSkip.ico" />
+        </td>
+        <td>ServerCore64BitCheck</td>
+        <td>Checks if this version of SQL Server is 64bit.</td>
+        <td>Not applicable</td>
+        <td>This rule does not apply to your system configuration.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>AclPermissionsFacet</td>
+        <td>Checks if the SQL Server registry keys are consistent.</td>
+        <td>Passed</td>
+        <td>SQL Server registry keys are consistent and can support SQL Server installation or upgrade.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>FacetWOW64PlatformCheck</td>
+        <td>Determines whether SQL Server Setup is supported on this operating system platform.</td>
+        <td>Passed</td>
+        <td>SQL Server Setup is supported on this operating system platform.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>HasSecurityBackupAndDebugPrivilegesCheck</td>
+        <td>Checks whether the account that is running SQL Server Setup has the right to back up files and directories, the right to manage auditing and the security log and the right to debug programs.</td>
+        <td>Passed</td>
+        <td>The account that is running SQL Server Setup has the right to back up files and directories, the right to manage auditing and security log and the right to debug programs.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>MediaPathLength</td>
+        <td>Checks whether the SQL Server installation media is too long.</td>
+        <td>Passed</td>
+        <td>The SQL Server installation media is not too long.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>RebootRequiredCheck</td>
+        <td>Checks if a pending computer restart is required. A pending restart can cause Setup to fail.</td>
+        <td>Passed</td>
+        <td>The computer does not require a restart.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>SetupCompatibilityCheck</td>
+        <td>Checks whether the current version of SQL Server is compatible with a later installed version.</td>
+        <td>Passed</td>
+        <td>Setup has not detected any incompatibilities.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>ThreadHasAdminPrivilegeCheck</td>
+        <td>Checks whether the account running SQL Server Setup has administrator rights on the computer.</td>
+        <td>Passed</td>
+        <td>The account running SQL Server Setup has administrator rights on the computer.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>WmiServiceStateCheck</td>
+        <td>Checks whether the WMI service is started and running on the computer.</td>
+        <td>Passed</td>
+        <td>The Windows Management Instrumentation (WMI) service is running.</td>
+      </tr>
+      <tr style="background-color:Aqua">
+        <td colspan="5">
+          <b>UpgradeGlobalRules:
+                    SQL Server 2019 Setup configuration checks for rules group 'UpgradeGlobalRules'</b>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSkip.ico" />
+        </td>
+        <td>Cluster_IsWMIServiceOperational</td>
+        <td>Checks whether the WMI service is running on the cluster because Setup is dependent on this service.</td>
+        <td>Not applicable</td>
+        <td>This rule does not apply to your system configuration.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSkip.ico" />
+        </td>
+        <td>ServerCoreBlockUnsupportedSxSCheck</td>
+        <td>Checks if an earlier version of SQL Server is currently installed.</td>
+        <td>Not applicable</td>
+        <td>This rule does not apply to your system configuration.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>AclPermissionsFacet</td>
+        <td>Checks if the SQL Server registry keys are consistent.</td>
+        <td>Passed</td>
+        <td>SQL Server registry keys are consistent and can support SQL Server installation or upgrade.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>BlockUnsupportedSxSCheck</td>
+        <td>Checks for the existance of any SQL 2019 CTP instances prior than CTP 3.0.</td>
+        <td>Passed</td>
+        <td>No SQL 2019 pre-CTP3.0 instances were discovered.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>Cluster_DNS_Consistency_Rule</td>
+        <td>Checks if the DNS search list on computer MEMCMSECONDARY is consistent with the other nodes of a cluster.</td>
+        <td>Passed</td>
+        <td>The computer is not clustered or the DNS search list on computer MEMCMSECONDARY matches the other nodes.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>Cluster_IsOnlineIfClustered</td>
+        <td>Verifies that the computer is not clustered or that the computer is clustered and the cluster service is online.</td>
+        <td>Passed</td>
+        <td>The computer is either not clustered or the cluster is up and online.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>FacetDomainControllerCheck</td>
+        <td>Checks whether the computer is a domain controller. Installing SQL Server 2019 on a domain controller is not recommended.</td>
+        <td>Passed</td>
+        <td>This computer is not a domain controller.</td>
+      </tr>
+      <tr style="background-color:Aqua">
+        <td colspan="5">
+          <b>UpgradeFeatureSpecificRules:
+                    SQL Server 2019 Setup configuration checks for rules group 'UpgradeFeatureSpecificRules'</b>
+        </td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSkip.ico" />
+        </td>
+        <td>AS_IsServiceHealthy_Id</td>
+        <td>Checks whether the SQL Server Analysis Services service is functional.</td>
+        <td>Not applicable</td>
+        <td>This rule does not apply to your system configuration.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSkip.ico" />
+        </td>
+        <td>AS_UpgradeValidateMixedState</td>
+        <td>Checks whether SQL Server Analysis Services is in the correct state when upgraded along with SQL.</td>
+        <td>Not applicable</td>
+        <td>This rule does not apply to your system configuration.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSkip.ico" />
+        </td>
+        <td>IsSSISDBInAvailabilityGroup</td>
+        <td>Checks whether SSISDB is in an AlwaysOn availability group for this instance of SQL Server.</td>
+        <td>Not applicable</td>
+        <td>This rule does not apply to your system configuration.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSkip.ico" />
+        </td>
+        <td>LocalOnly_AsFeatureStateCheck</td>
+        <td>Checks if the SQL Server Analysis Services feature has been successfully configured.</td>
+        <td>Not applicable</td>
+        <td>This rule does not apply to your system configuration.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSkip.ico" />
+        </td>
+        <td>PowerShellCheck</td>
+        <td>Checks whether Windows PowerShell 3.0 (or higher) is already installed on system. Windows PowerShell is needed by some SQL Server features.</td>
+        <td>Not applicable</td>
+        <td>This rule does not apply to your system configuration.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSkip.ico" />
+        </td>
+        <td>ServerCoreBlockUnsupportedFeaturesCheck</td>
+        <td>Checks if all selected features are supported on Windows Server Core.</td>
+        <td>Not applicable</td>
+        <td>This rule does not apply to your system configuration.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSkip.ico" />
+        </td>
+        <td>SlipstreamMediaInfoCheck</td>
+        <td>Checks whether the language of the original media is the same language as the specified service pack.</td>
+        <td>Not applicable</td>
+        <td>This rule does not apply to your system configuration.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>BlockCrossLanguageUpgrade</td>
+        <td>Checks whether the Setup language is the same as the language of the SQL Server features you are upgrading.</td>
+        <td>Passed</td>
+        <td>The Setup language is the same as the language of the SQL Server features you are upgrading.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>BlockMixedArchitectureUpgrade</td>
+        <td>Checks whether the CPU architecture of feature(s) you are trying to upgrade is different than the CPU architecture of this installation program.</td>
+        <td>Passed</td>
+        <td>Setup can upgrade these features since architecture of features match the installation program.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>Cluster_FeatureDownGradeCheck</td>
+        <td>Checks whether the edition of the selected SQL Server instance is supported in this SQL Server edition downgrade scenario.</td>
+        <td>Passed</td>
+        <td>The edition of the selected SQL Server instance is supported in this SQL Server edition downgrade scenario.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>DenaliRTMUpgradeBlockRule</td>
+        <td>Checks if the currently selected SQL Server 2012 features to upgrade are at the supported service pack.</td>
+        <td>Passed</td>
+        <td>The SQL Server 2012 features that have been selected to upgrade are at Service Pack 2 or later.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>Engine_AllSystemDatabasesAccessibleCheck</td>
+        <td>Checks that all system databases are accessible.</td>
+        <td>Passed</td>
+        <td>System Database Access Check succeeded.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>Engine_HasDBWithCompatLevel90</td>
+        <td>Checks if any user database has compatibility level equal to or less than 90.</td>
+        <td>Passed</td>
+        <td>No user database found with compatibility level equal to or less than 90.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>Engine_IsAweEnabledForX86</td>
+        <td>Checks if AWE is enabled on x86 installations</td>
+        <td>Passed</td>
+        <td>AWE check succeeded.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>Engine_IsLPIMEnabledForX64</td>
+        <td>Checks if Lock Pages In Memory feature was enabled by virtue of LPIM privilege and absence of TF 845 on amd64 installations</td>
+        <td>Passed</td>
+        <td>Lock Pages In Memory (LPIM) check for X64 succeeded.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>Engine_IsLPIMEnabledForX86</td>
+        <td>Checks if Lock Pages In Memory feature was enabled by virtue of LPIM privilege and AWE feature on x86 installations</td>
+        <td>Passed</td>
+        <td>Lock Pages In Memory (LPIM) check for X86 succeeded.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>Engine_IsMinusHEnabledForX86</td>
+        <td>Checks if -h option is enabled on x86 installations</td>
+        <td>Passed</td>
+        <td>Check for -h succeeded.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>Engine_ResourceDLLUpdateRestartCheck</td>
+        <td>Checks whether shared resource DLLs will be updated, causing restarts for clustered SQL Server instances active on this node.</td>
+        <td>Passed</td>
+        <td>Cluster resource DLLs will not be updated, or there are no other clustered SQL Server instances active on this node.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>Engine_ServiceAccountOnDomainCheck</td>
+        <td>Checks that the SQL Server Service Account when running on a domain controller is suitable for upgrade.</td>
+        <td>Passed</td>
+        <td>SQL Server Service Account Check succeeded.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>Engine_SqlEngineHealthCheck</td>
+        <td>Checks whether the SQL Server service can be restarted; or for a clustered instance, whether the SQL Server resource is online.</td>
+        <td>Passed</td>
+        <td>The SQL Server service can be restarted; or for a clustered instance, the SQL Server resource is online.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>Engine_SqlServerServiceDisabled_Id</td>
+        <td>Checks that SQL Server service is not set to Disabled.</td>
+        <td>Passed</td>
+        <td>SQL Server Service Disabled Check succeeded.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>EnterpriseCalLimit</td>
+        <td>Checks if Enterprise Server/CAL product key was entered on a system with greater than 20 physical cores, or 40 logical cores with Hyper-threading enabled.</td>
+        <td>Passed</td>
+        <td>The number of CPU cores does not exceed Enterprise Server/CAL limitations (20 physical cores, or 40 logical cores with Hyper-threading enabled)</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>FacetWOW64ClusterUpgradeCheck</td>
+        <td>Determines whether SQL Server cluster upgrade is supported on this operating system platform.</td>
+        <td>Passed</td>
+        <td>SQL Server cluster upgrade is supported on this operating system platform.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>FailedUpgradeCheck</td>
+        <td>Checks whether a previous upgrade failed.</td>
+        <td>Passed</td>
+        <td>A previous upgrade that failed was not detected.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>FAT32FileSystemCheck</td>
+        <td>Checks whether the specified drive is FAT32 file system volume. Installing on a FAT32 file system is supported but not recommended as it is less secure than the NTFS file system.</td>
+        <td>Passed</td>
+        <td>The specified drive is not the FAT32 file system.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>FeatureUpgradeMatrixCheck</td>
+        <td>Checks whether the specified feature meets SQL Server 2019 upgrade requirements.</td>
+        <td>Passed</td>
+        <td>The specified instance meets the requirements for upgrade.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>IncompleteUpgradeCheck</td>
+        <td>Verifies whether the upgrade operation completed successfully.</td>
+        <td>Passed</td>
+        <td>SQL Server upgrade completed successfully.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>KatmaiRTMUpgradeBlockRule</td>
+        <td>Checks if the currently selected SQL Server 2008 features to upgrade are at the supported service pack.</td>
+        <td>Passed</td>
+        <td>The SQL Server 2008 features that have been selected to upgrade are at Service Pack 4 or later.</td>
+      </tr>
+      <tr valign="top">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>KJRTMUpgradeBlockRule</td>
+        <td>Checks if the currently selected SQL Server 2008 R2 features to upgrade are at the supported service pack.</td>
+        <td>Passed</td>
+        <td>The SQL Server 2008 R2 features that have been selected to upgrade are at Service Pack 3 or later.</td>
+      </tr>
+      <tr valign="top" style="background-color:LightYellow">
+        <td>
+          <img src="resources\ProgressSuccess.ico" />
+        </td>
+        <td>LocalOnly_SqlFeatureStateCheck</td>
+        <td>Checks if the SQL Server Database Services feature has been successfully configured.</td>
+        <td>Passed</td>
+        <td>The configured state of the SQL Server Database Services feature is valid for the current scenario.</td>
+      </tr>
+    </table>
+    <p STYLE="font-family: Verdana, Arial, sans-serif; font-size: 10pt;">
+      <b>Rules Documentation: </b>
+      <a href="https://go.microsoft.com/fwlink/?linkid=862098">https://go.microsoft.com/fwlink/?linkid=862098</a>
+      <br />
+      <b>Community: </b>
+      <a href="https://go.microsoft.com/fwlink/?linkid=2094703">https://go.microsoft.com/fwlink/?linkid=2094703</a>
+      <br />
+      <b>Setup Help File: </b>
+      <a href="https://go.microsoft.com/fwlink/?linkid=862093">https://go.microsoft.com/fwlink/?linkid=862093</a>
+    </p>
+  </body>
+  <xml id="xmlDataIsland">
+    <RunRuleResults>
+  <Header reportDate="3/7/2022" reportTime="6:16 PM" savedToDirectory="C:\Program Files\Microsoft SQL Server\150\Setup Bootstrap\Log\20220307_161249\SystemConfigurationCheck_Report.htm">
+    <Machines>
+      <Machine value="MEMCMSECONDARY" />
+    </Machines>
+  </Header>
+  <group groupName="GlobalRules" groupDescription="SQL Server 2019 Setup configuration checks for rules group 'GlobalRules'">
+    <RunRuleResult ruleName="ThreadHasAdminPrivilegeCheck" machineName="MEMCMSECONDARY" description="Checks whether the account running SQL Server Setup has administrator rights on the computer." result="Passed" message="The account running SQL Server Setup has administrator rights on the computer." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="HasSecurityBackupAndDebugPrivilegesCheck" machineName="MEMCMSECONDARY" description="Checks whether the account that is running SQL Server Setup has the right to back up files and directories, the right to manage auditing and the security log and the right to debug programs." result="Passed" message="The account that is running SQL Server Setup has the right to back up files and directories, the right to manage auditing and security log and the right to debug programs." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="RebootRequiredCheck" machineName="MEMCMSECONDARY" description="Checks if a pending computer restart is required. A pending restart can cause Setup to fail." result="Passed" message="The computer does not require a restart." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="WmiServiceStateCheck" machineName="MEMCMSECONDARY" description="Checks whether the WMI service is started and running on the computer." result="Passed" message="The Windows Management Instrumentation (WMI) service is running." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="AclPermissionsFacet" machineName="MEMCMSECONDARY" description="Checks if the SQL Server registry keys are consistent." result="Passed" message="SQL Server registry keys are consistent and can support SQL Server installation or upgrade." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="MediaPathLength" machineName="MEMCMSECONDARY" description="Checks whether the SQL Server installation media is too long." result="Passed" message="The SQL Server installation media is not too long." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="SetupCompatibilityCheck" machineName="MEMCMSECONDARY" description="Checks whether the current version of SQL Server is compatible with a later installed version." result="Passed" message="Setup has not detected any incompatibilities." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="ServerCore64BitCheck" machineName="MEMCMSECONDARY" description="Checks if this version of SQL Server is 64bit." result="Not applicable" message="This rule does not apply to your system configuration." imagePath="resources\ProgressSkip.ico" />
+    <RunRuleResult ruleName="FacetWOW64PlatformCheck" machineName="MEMCMSECONDARY" description="Determines whether SQL Server Setup is supported on this operating system platform." result="Passed" message="SQL Server Setup is supported on this operating system platform." imagePath="resources\ProgressSuccess.ico" />
+  </group>
+  <group groupName="UpgradeGlobalRules" groupDescription="SQL Server 2019 Setup configuration checks for rules group 'UpgradeGlobalRules'">
+    <RunRuleResult ruleName="AclPermissionsFacet" machineName="MEMCMSECONDARY" description="Checks if the SQL Server registry keys are consistent." result="Passed" message="SQL Server registry keys are consistent and can support SQL Server installation or upgrade." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="FacetDomainControllerCheck" machineName="MEMCMSECONDARY" description="Checks whether the computer is a domain controller. Installing SQL Server 2019 on a domain controller is not recommended." result="Passed" message="This computer is not a domain controller." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="Cluster_IsOnlineIfClustered" machineName="MEMCMSECONDARY" description="Verifies that the computer is not clustered or that the computer is clustered and the cluster service is online." result="Passed" message="The computer is either not clustered or the cluster is up and online." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="Cluster_DNS_Consistency_Rule" machineName="MEMCMSECONDARY" description="Checks if the DNS search list on computer MEMCMSECONDARY is consistent with the other nodes of a cluster." result="Passed" message="The computer is not clustered or the DNS search list on computer MEMCMSECONDARY matches the other nodes." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="Cluster_IsWMIServiceOperational" machineName="MEMCMSECONDARY" description="Checks whether the WMI service is running on the cluster because Setup is dependent on this service." result="Not applicable" message="This rule does not apply to your system configuration." imagePath="resources\ProgressSkip.ico" />
+    <RunRuleResult ruleName="ServerCoreBlockUnsupportedSxSCheck" machineName="MEMCMSECONDARY" description="Checks if an earlier version of SQL Server is currently installed." result="Not applicable" message="This rule does not apply to your system configuration." imagePath="resources\ProgressSkip.ico" />
+    <RunRuleResult ruleName="BlockUnsupportedSxSCheck" machineName="MEMCMSECONDARY" description="Checks for the existance of any SQL 2019 CTP instances prior than CTP 3.0." result="Passed" message="No SQL 2019 pre-CTP3.0 instances were discovered." imagePath="resources\ProgressSuccess.ico" />
+  </group>
+  <group groupName="UpgradeFeatureSpecificRules" groupDescription="SQL Server 2019 Setup configuration checks for rules group 'UpgradeFeatureSpecificRules'">
+    <RunRuleResult ruleName="BlockCrossLanguageUpgrade" machineName="MEMCMSECONDARY" description="Checks whether the Setup language is the same as the language of the SQL Server features you are upgrading." result="Passed" message="The Setup language is the same as the language of the SQL Server features you are upgrading." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="Engine_SqlServerServiceDisabled_Id" machineName="MEMCMSECONDARY" description="Checks that SQL Server service is not set to Disabled." result="Passed" message="SQL Server Service Disabled Check succeeded." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="Engine_IsAweEnabledForX86" machineName="MEMCMSECONDARY" description="Checks if AWE is enabled on x86 installations" result="Passed" message="AWE check succeeded." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="Engine_IsMinusHEnabledForX86" machineName="MEMCMSECONDARY" description="Checks if -h option is enabled on x86 installations" result="Passed" message="Check for -h succeeded." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="Engine_IsLPIMEnabledForX86" machineName="MEMCMSECONDARY" description="Checks if Lock Pages In Memory feature was enabled by virtue of LPIM privilege and AWE feature on x86 installations" result="Passed" message="Lock Pages In Memory (LPIM) check for X86 succeeded." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="Engine_IsLPIMEnabledForX64" machineName="MEMCMSECONDARY" description="Checks if Lock Pages In Memory feature was enabled by virtue of LPIM privilege and absence of TF 845 on amd64 installations" result="Passed" message="Lock Pages In Memory (LPIM) check for X64 succeeded." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="Engine_SqlEngineHealthCheck" machineName="MEMCMSECONDARY" description="Checks whether the SQL Server service can be restarted; or for a clustered instance, whether the SQL Server resource is online." result="Passed" message="The SQL Server service can be restarted; or for a clustered instance, the SQL Server resource is online." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="Engine_AllSystemDatabasesAccessibleCheck" machineName="MEMCMSECONDARY" description="Checks that all system databases are accessible." result="Passed" message="System Database Access Check succeeded." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="Engine_ResourceDLLUpdateRestartCheck" machineName="MEMCMSECONDARY" description="Checks whether shared resource DLLs will be updated, causing restarts for clustered SQL Server instances active on this node." result="Passed" message="Cluster resource DLLs will not be updated, or there are no other clustered SQL Server instances active on this node." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="Engine_HasDBWithCompatLevel90" machineName="MEMCMSECONDARY" description="Checks if any user database has compatibility level equal to or less than 90." result="Passed" message="No user database found with compatibility level equal to or less than 90." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="BlockMixedArchitectureUpgrade" machineName="MEMCMSECONDARY" description="Checks whether the CPU architecture of feature(s) you are trying to upgrade is different than the CPU architecture of this installation program." result="Passed" message="Setup can upgrade these features since architecture of features match the installation program." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="Engine_ServiceAccountOnDomainCheck" machineName="MEMCMSECONDARY" description="Checks that the SQL Server Service Account when running on a domain controller is suitable for upgrade." result="Passed" message="SQL Server Service Account Check succeeded." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="FeatureUpgradeMatrixCheck" machineName="MEMCMSECONDARY" description="Checks whether the specified feature meets SQL Server 2019 upgrade requirements." result="Passed" message="The specified instance meets the requirements for upgrade." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="IncompleteUpgradeCheck" machineName="MEMCMSECONDARY" description="Verifies whether the upgrade operation completed successfully." result="Passed" message="SQL Server upgrade completed successfully." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="FailedUpgradeCheck" machineName="MEMCMSECONDARY" description="Checks whether a previous upgrade failed." result="Passed" message="A previous upgrade that failed was not detected." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="LocalOnly_SqlFeatureStateCheck" machineName="MEMCMSECONDARY" description="Checks if the SQL Server Database Services feature has been successfully configured." result="Passed" message="The configured state of the SQL Server Database Services feature is valid for the current scenario." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="LocalOnly_AsFeatureStateCheck" machineName="MEMCMSECONDARY" description="Checks if the SQL Server Analysis Services feature has been successfully configured." result="Not applicable" message="This rule does not apply to your system configuration." imagePath="resources\ProgressSkip.ico" />
+    <RunRuleResult ruleName="Cluster_FeatureDownGradeCheck" machineName="MEMCMSECONDARY" description="Checks whether the edition of the selected SQL Server instance is supported in this SQL Server edition downgrade scenario." result="Passed" message="The edition of the selected SQL Server instance is supported in this SQL Server edition downgrade scenario." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="AS_IsServiceHealthy_Id" machineName="MEMCMSECONDARY" description="Checks whether the SQL Server Analysis Services service is functional." result="Not applicable" message="This rule does not apply to your system configuration." imagePath="resources\ProgressSkip.ico" />
+    <RunRuleResult ruleName="AS_UpgradeValidateMixedState" machineName="MEMCMSECONDARY" description="Checks whether SQL Server Analysis Services is in the correct state when upgraded along with SQL." result="Not applicable" message="This rule does not apply to your system configuration." imagePath="resources\ProgressSkip.ico" />
+    <RunRuleResult ruleName="FAT32FileSystemCheck" machineName="MEMCMSECONDARY" description="Checks whether the specified drive is FAT32 file system volume. Installing on a FAT32 file system is supported but not recommended as it is less secure than the NTFS file system." result="Passed" message="The specified drive is not the FAT32 file system." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="FacetWOW64ClusterUpgradeCheck" machineName="MEMCMSECONDARY" description="Determines whether SQL Server cluster upgrade is supported on this operating system platform." result="Passed" message="SQL Server cluster upgrade is supported on this operating system platform." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="SlipstreamMediaInfoCheck" machineName="MEMCMSECONDARY" description="Checks whether the language of the original media is the same language as the specified service pack." result="Not applicable" message="This rule does not apply to your system configuration." imagePath="resources\ProgressSkip.ico" />
+    <RunRuleResult ruleName="ServerCoreBlockUnsupportedFeaturesCheck" machineName="MEMCMSECONDARY" description="Checks if all selected features are supported on Windows Server Core." result="Not applicable" message="This rule does not apply to your system configuration." imagePath="resources\ProgressSkip.ico" />
+    <RunRuleResult ruleName="PowerShellCheck" machineName="MEMCMSECONDARY" description="Checks whether Windows PowerShell 3.0 (or higher) is already installed on system. Windows PowerShell is needed by some SQL Server features." result="Not applicable" message="This rule does not apply to your system configuration." imagePath="resources\ProgressSkip.ico" />
+    <RunRuleResult ruleName="DenaliRTMUpgradeBlockRule" machineName="MEMCMSECONDARY" description="Checks if the currently selected SQL Server 2012 features to upgrade are at the supported service pack." result="Passed" message="The SQL Server 2012 features that have been selected to upgrade are at Service Pack 2 or later." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="KatmaiRTMUpgradeBlockRule" machineName="MEMCMSECONDARY" description="Checks if the currently selected SQL Server 2008 features to upgrade are at the supported service pack." result="Passed" message="The SQL Server 2008 features that have been selected to upgrade are at Service Pack 4 or later." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="KJRTMUpgradeBlockRule" machineName="MEMCMSECONDARY" description="Checks if the currently selected SQL Server 2008 R2 features to upgrade are at the supported service pack." result="Passed" message="The SQL Server 2008 R2 features that have been selected to upgrade are at Service Pack 3 or later." imagePath="resources\ProgressSuccess.ico" />
+    <RunRuleResult ruleName="IsSSISDBInAvailabilityGroup" machineName="MEMCMSECONDARY" description="Checks whether SSISDB is in an AlwaysOn availability group for this instance of SQL Server." result="Not applicable" message="This rule does not apply to your system configuration." imagePath="resources\ProgressSkip.ico" />
+    <RunRuleResult ruleName="EnterpriseCalLimit" machineName="MEMCMSECONDARY" description="Checks if Enterprise Server/CAL product key was entered on a system with greater than 20 physical cores, or 40 logical cores with Hyper-threading enabled." result="Passed" message="The number of CPU cores does not exceed Enterprise Server/CAL limitations (20 physical cores, or 40 logical cores with Hyper-threading enabled)" imagePath="resources\ProgressSuccess.ico" />
+  </group>
+  <Resources rulesDocumentation="https://go.microsoft.com/fwlink/?linkid=862098" community="https://go.microsoft.com/fwlink/?linkid=2094703" setupHelpFile="https://go.microsoft.com/fwlink/?linkid=862093" />
+</RunRuleResults>
+  </xml>
+</html>
